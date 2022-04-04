@@ -5,7 +5,8 @@ import os
 import sys
 import textwrap
 from importlib import import_module
-import G2Exception
+
+from senzing import G2Exception
 
 # -----------------------------------------------------------------------------
 # Exceptions
