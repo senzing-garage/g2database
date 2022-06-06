@@ -1,0 +1,33 @@
+[pylint]
+disable=
+	consider-using-generator,
+	deprecated-module,
+	f-string-without-interpolation,
+	import-error,
+	invalid-name,
+	missing-class-docstring,
+	missing-function-docstring,
+	missing-module-docstring,
+	no-else-return,
+	no-member,
+	no-self-use,
+	raise-missing-from,
+	redefined-outer-name,
+	too-many-instance-attributes,
+	too-many-statements,
+	undefined-variable,
+	unidiomatic-typecheck,
+	unused-import,
+	unused-variable,
+	useless-return,
+    broad-except,
+    consider-using-f-string,
+    line-too-long,
+    too-many-branches,
+    too-many-locals,
+good-names=
+    template-python
+ignore=
+    __init__.py,
+notes=
+    FIXME,
