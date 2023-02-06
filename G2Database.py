@@ -215,12 +215,12 @@ class G2Database:
             # if parmList:
             #    print('PARMS:', type(parmList), parmList)
             raise err
-        else:
-            if exec_cursor:
-                cursorData['OBJECT'] = exec_cursor
-                cursorData['ROWS_AFFECTED'] = exec_cursor.rowcount
-                if exec_cursor.description:
-                    cursorData['COLUMN_HEADERS'] = [columnData[0].upper() for columnData in exec_cursor.description]
+ 
+        if exec_cursor:
+            cursorData['OBJECT'] = exec_cursor
+            cursorData['ROWS_AFFECTED'] = exec_cursor.rowcount
+            if exec_cursor.description:
+                cursorData['COLUMN_HEADERS'] = [columnData[0].upper() for columnData in exec_cursor.description]
         return cursorData
 
     # ----------------------------------------
