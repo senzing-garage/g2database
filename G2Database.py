@@ -215,7 +215,7 @@ class G2Database:
             # if parmList:
             #    print('PARMS:', type(parmList), parmList)
             raise err
- 
+
         if exec_cursor:
             cursorData['OBJECT'] = exec_cursor
             cursorData['ROWS_AFFECTED'] = exec_cursor.rowcount
