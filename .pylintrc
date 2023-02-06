@@ -1,6 +1,7 @@
 [pylint]
 disable=
     broad-except,
+    broad-exception-raised,
     consider-using-f-string,
     consider-using-generator,
     deprecated-module,
@@ -13,7 +14,6 @@ disable=
     missing-module-docstring,
     no-else-return,
     no-member,
-    no-self-use,
     raise-missing-from,
     redefined-outer-name,
     too-many-branches,
