@@ -247,7 +247,6 @@ class G2Database:
                 rowData = None
         else:
             raise Exception('WARNING: Previous SQL was not a query.')
-            rowData = None
 
         return rowData
 
@@ -258,7 +257,6 @@ class G2Database:
             rowData = cursorData['CURSOR'].fetchone()
         else:
             raise Exception('WARNING: Previous SQL was not a query.')
-            rowData = None
 
         return rowData
 
