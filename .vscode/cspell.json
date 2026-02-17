@@ -2,21 +2,21 @@
   "version": "0.2",
   "language": "en",
   "words": [
+    "analysing",
     "CCLA",
     "CODEOWNER",
-    "ICLA",
-    "Senzing",
-    "analysing",
+    "cooldown",
     "dbtype",
     "dburi",
     "esbenp",
+    "ICLA",
+    "kernelsam",
     "pydev",
     "pylint",
+    "Senzing",
     "shellcheck",
     "sqlerror",
     "stackoverflow"
   ],
-  "ignorePaths": [
-    ".git/**"
-  ]
+  "ignorePaths": [".git/**"]
 }
